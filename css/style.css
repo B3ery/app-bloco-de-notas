@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-image: url("../img/fundo.jpg");
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.bloco{
+    background-color: white;
+    padding: 5%;
+    border: 5px solid black;
+}
+
+#saveButton{
+    border: none;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+}
+
+#noteInput{
+    padding: 10px;
+}
+
+.container-notes{
+    background-color: #4729067e;
+    padding: 5%;
+    margin-top: 2%;
+}
+.container-notes p{
+    font-size: 1.5em;
+     color: white;
+}
+.delete{
+    background-color: #ffe600;
+    padding: 15px;
+    border: none;
+    color: #000000;
+}
+
+
