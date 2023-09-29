@@ -32,10 +32,19 @@ body{
     padding: 10px;
 }
 
-.container-notes{
-    background-color: #4729067e;
-    padding: 5%;
-    margin-top: 2%;
+
+.note{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("../img/postit.png");
+    max-width: 300px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .container-notes p{
     font-size: 1.5em;
